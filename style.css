@@ -92,7 +92,7 @@ html,body {
     width:100%;
     position:fixed;
     background-color:rgba(0, 0, 0,0.6);
-    font-family:sans-serif;
+    font-family: "sans-serif";
     text-align: center;
     z-index: 3;
     height: 70px;
@@ -166,25 +166,13 @@ background-color:rgba(0,0,0,0.6);
 
 }
 
-/*video { 
-    min-height:100vh; 
-    width:100%; 
-    
-    background-color:black;
-    background-size:cover;
-    
-
-    
-    
-
-}*/
 
 #headerlogo >img {
     position: absolute;
     height:80px;
-    width: auto;
-    left:150px;
-    z-index:4;
+    width:80px;
+    left:100px;
+    z-index:2;
     margin-top:-4px;
 }
     
@@ -245,7 +233,7 @@ z-index: 1;
     p { 
     
     text-align: center; 
-    font-family: sans-serif;
+    font-family: "sans-serif";
     color:black;
     text-transform:capitalize;
         
@@ -414,8 +402,6 @@ z-index: 1;
     margin-left:20px;
     font-size:14px;
     text-transform: uppercase;
-    height: 20px;
-    width: 20px;
     transition: all .2s ease-in-out;
 }
 
@@ -446,7 +432,7 @@ z-index: 1;
     position:absolute;
     margin: auto;
     left: 0; bottom: -8px; right: 280px;
-    font-family: "times new roman";
+   
     font-size:19px;
     color:aquamarine;
      width:1px;
@@ -461,7 +447,7 @@ z-index: 1;
     position:absolute;
     margin: auto;
     left: 0; bottom: 0px; right: 0;
-    font-family: "times new roman";
+    font-family:  "sans-serif", ;
     font-size:19px;
     color:aquamarine;
     width: 200px;
@@ -643,7 +629,7 @@ transform: translate(-50%,-53%);
 	max-width: 850px;
 	width: 100%;
 	height: 5px;
-	background: #e3e3e5;
+	background-color:#f0f0f0;
 	clear: both;
 	margin: 20px 0;
 }
@@ -655,7 +641,7 @@ transform: translate(-50%,-53%);
 .communication, .planning,
 .learning, .programming,
 .visual-design, .ux-design {
-	background: #c6a60e;
+	background-color:mediumaquamarine;
 }
 
 .communication {
