@@ -6,6 +6,10 @@ html,body {
 }
 
 
+
+
+
+
 .container {
     margin:0;
     padding:0;
@@ -43,7 +47,7 @@ html,body {
   font-size:20px;
   position:absolute;
   bottom: 0;
-  left:65px;
+  left:50px;
   
 
 }
@@ -69,7 +73,7 @@ html,body {
   font-size:20px;
   position:absolute;
   margin: auto;
-  right:65px;
+  right:50px;
   bottom: 0;
   
 
@@ -97,12 +101,16 @@ html,body {
 
  .navbar ul {
     position: relative;
+    
     list-style-type: none;
     float: right;
 }
 
 .navbar li {
     display: inline;
+    
+     
+    
 }
 
  .navbar li a {
@@ -111,16 +119,17 @@ html,body {
     padding: 13px 30px;
     text-decoration: none;
     margin-top: 0px;
-    font-size:11px;
+    
+    font-size:12px;
     text-transform: uppercase;
-    transition: all .2s ease-in-out;
+   
 }
 
 .navbar li a:hover {
    
     color:mediumaquamarine;
-    transform: scale(1.3);
-   
+    font-size:16px;
+ 
     
 }
 
@@ -157,11 +166,18 @@ background-color:rgba(0,0,0,0.6);
 
 }
 
-
+/*video { 
+    min-height:100vh; 
+    width:100%; 
+    
+    background-color:black;
+    background-size:cover;
+    
 
     
     
 
+}*/
 
 #headerlogo >img {
     position: absolute;
@@ -338,7 +354,6 @@ z-index: 1;
   left: 0; bottom:-30px; right: 0;
   font-size:15px;
   color:#f0f0f0;
-  font-family: "sans-serif",;
 
 }
 
@@ -349,7 +364,7 @@ z-index: 1;
     width:100%;
     position:absolute;
     background-color:rgba(0, 0, 0,0.0);
-    font-family:"sans-serif",;
+    font-family:"sans-serif";
     text-align: center;
     color:#f0f0f0;
     text-decoration: none;
@@ -361,14 +376,13 @@ z-index: 1;
 
 
 .socialnetworks {
-    
     top:40%;
     left:50%;
     transform: translate(-50%,-40%);
     width:100%;
     position:absolute;
     background-color:rgba(0, 0, 0,0.0); 
-    
+    font-family:sans-serif;
     
     
     
@@ -430,23 +444,24 @@ z-index: 1;
     text-align: center;
     position:absolute;
     margin: auto;
-    left: 0; bottom: -3px; right: 280px;
+    left: 0; bottom: -1px; right: 280px;
+    font-family: "times new roman";
     font-size:19px;
     color:aquamarine;
 }
 
- #footer-mail >  a {
+
+
+.footer-text span a {
     display: inline-block;
     color:white;
     text-align: center;
     position:absolute;
-    top:88%;
-    left:50%;
-    transform:translate(-50%,-50%);
-    font-family: "sans-serif",;
+    margin: auto;
+    left: 0; bottom: 0px; right: 0;
+    font-family: "times new roman";
     font-size:19px;
     color:aquamarine;
-    
 }
 
 #portofolio { 
@@ -580,8 +595,7 @@ z-index: 1
  position: absolute;
  top:50%;
  left:50%;
-width:550px; 
-height:100px;
+  
 transform: translate(-50%,-50%);
     
   
@@ -591,12 +605,12 @@ transform: translate(-50%,-50%);
     
 	width: 150px;
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 .mr {
 	margin:2px;
- margin-left: 20px;
+ margin-left: 10px;
 }
 
 .mb {
