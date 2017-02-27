@@ -204,17 +204,33 @@ html, body {
   background-image: url("images/brick-wall.jpg");
   background-size: cover;
   background-position: center;
-  background-repeat: none; }
+  background-repeat: none;
+  z-index: 1; }
+  #portfolio .overlay {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.3); }
   #portfolio .project-wrapper {
+    z-index: 3;
+    width: 300px;
+    height: 400px;
     position: absolute;
     top: 50%;
     left: 50%;
-    transfrom: translate(-50%, -50%);
-    width: 300px;
-    height: 300px; }
+    transform: translate(-50%, -50%);
+    /*
+    float:left;
+    margin-top:15%;
+    margin-left:50%;
+    width:300px;
+    height:400px;
+    
+    */ }
     #portfolio .project-wrapper .project {
       width: 300px;
-      height: 300px;
+      height: 400px;
       background-image: url("images/original.jpg");
       background-size: cover;
       background-repeat: none;
@@ -222,24 +238,44 @@ html, body {
       border-style: solid;
       border-color: #151515;
       border-width: 5px;
-      z-index: 4;
+      z-index: 3;
       box-shadow: 10px 10px 5px #888888; }
-      #portfolio .project-wrapper .project .overlay {
-        z-index: 5;
+      #portfolio .project-wrapper .project #overlay {
+        z-index: 4;
         position: absolute;
-        width: 100%;
-        height: 100%;
+        width: 300px;
+        height: 400px;
         background-color: rgba(0, 0, 0, 0.6); }
+        #portfolio .project-wrapper .project #overlay p {
+          opacity: 0.0;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%); }
+          #portfolio .project-wrapper .project #overlay p a {
+            color: white;
+            text-size: 17px; }
+      #portfolio .project-wrapper .project #overlay:hover {
+        z-index: 4;
+        position: absolute;
+        width: 300px;
+        height: 400px;
+        background-color: rgba(0, 0, 0, 0.9); }
+        #portfolio .project-wrapper .project #overlay:hover p {
+          opacity: 1; }
   #portfolio h1 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50px, -50px);
     font-family: 'Raleway', sans-serif;
     text-alight: center; }
-  #portfolio p {
-    position: absolute;
-    top: 50%;
-    left: 55%;
-    transform: translate(-50px, -50px);
-    font-size: 27px;
-    transform: rotate(270deg);
-    z-index: 6; }
+  #portfolio .p-wrapper {
+    float: right;
+    margin-right: 8%;
+    margin-top: 20%; }
+    #portfolio .p-wrapper p {
+      font-family: 'Merriweather', serif;
+      font-size: 23px; }
 
 /*# sourceMappingURL=style.css.map */
