@@ -271,9 +271,10 @@ html, body {
     font-family: 'Raleway', sans-serif;
     text-alight: center; }
   #portfolio .p-wrapper {
-    float: right;
-    margin-right: 8%;
-    margin-top: 20%; }
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%); }
     #portfolio .p-wrapper p {
       font-family: 'Merriweather', serif;
       font-size: 23px; }
