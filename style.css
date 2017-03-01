@@ -189,11 +189,11 @@ html, body {
     font-family: 'Raleway', sans-serif; }
   .article p {
     z-index: 1;
-    text-transform: none;
     font-size: 25px;
     text-align: left;
-    color: rgba(255, 255, 255, 0.5);
-    text-decoration: none; }
+    color: rgba(255, 255, 255, 0.5); }
+    .article p::first-letter {
+      font-size: 60px; }
   .article span {
     text-transform: capitalize; }
 
@@ -210,8 +210,8 @@ html, body {
     position: absolute;
     z-index: 2;
     width: 100%;
-    height: 100%;
-    background-color: rgba(255, 255, 255, 0.3); }
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.2); }
   #portfolio .project-wrapper {
     z-index: 3;
     width: 300px;
@@ -237,7 +237,7 @@ html, body {
       background-position: center;
       border-style: solid;
       border-color: #151515;
-      border-width: 5px;
+      border-width: 10px;
       z-index: 3;
       box-shadow: 10px 10px 5px #888888; }
       #portfolio .project-wrapper .project #overlay {
@@ -273,10 +273,57 @@ html, body {
   #portfolio .p-wrapper {
     position: absolute;
     top: 50%;
-    left: 80%;
+    left: 75%;
     transform: translate(-50%, -50%); }
     #portfolio .p-wrapper p {
       font-family: 'Merriweather', serif;
       font-size: 23px; }
+
+#contact {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url("images/contact-bg.jpg");
+  background-size: cover;
+  background-repeat: none;
+  background-position: center; }
+  #contact .overlay {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.2); }
+  #contact .sn-wrapper {
+    background-color: white;
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+  #contact h1 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50px, -50px);
+    font-family: 'Raleway', sans-serif;
+    text-alight: center; }
+
+.footer {
+  position: relative;
+  background-color: #151515;
+  width: 100%;
+  height: 40px; }
+  .footer p {
+    position: absolute;
+    left: 0px;
+    color: white;
+    text-align: center; }
+
+/*
+@media screen and (max-width: 320px) {
+    
+  
+}*/
 
 /*# sourceMappingURL=style.css.map */
