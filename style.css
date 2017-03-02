@@ -294,13 +294,58 @@ html, body {
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.2); }
   #contact .sn-wrapper {
-    background-color: white;
-    width: 400px;
-    height: 300px;
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 800px;
+    height: 400px;
     position: absolute;
-    top: 50%;
+    top: 57%;
     left: 50%;
     transform: translate(-50%, -50%); }
+    #contact .sn-wrapper h1 {
+      color: white;
+      alight-text: center;
+      margin-top: 50px;
+      margin: 0,auto;
+      font-size: 27px; }
+    #contact .sn-wrapper .email-icon {
+      position: relative;
+      width: 100px;
+      height: 100px;
+      float: left;
+      margin-top: 150px;
+      left: 150px;
+      transition: all .2s ease-in-out; }
+      #contact .sn-wrapper .email-icon:hover {
+        transform: scale(1.2); }
+      #contact .sn-wrapper .email-icon img {
+        width: 100px;
+        height: 100px; }
+    #contact .sn-wrapper .github-icon {
+      position: relative;
+      width: 100px;
+      height: 100px;
+      float: left;
+      margin-top: 150px;
+      left: 250px;
+      transition: all .2s ease-in-out; }
+      #contact .sn-wrapper .github-icon::hover {
+        transform: scale(1.2); }
+      #contact .sn-wrapper .github-icon img {
+        width: 100px;
+        height: 100px; }
+    #contact .sn-wrapper .linkedin-icon {
+      position: relative;
+      width: 100px;
+      height: 100px;
+      float: right;
+      margin-top: 150px;
+      right: 150px;
+      transition: all .2s ease-in-out; }
+      #contact .sn-wrapper .linkedin-icon:hover {
+        transform: scale(1.2); }
+      #contact .sn-wrapper .linkedin-icon img {
+        width: 100px;
+        height: 100px; }
   #contact h1 {
     position: absolute;
     top: 10%;
