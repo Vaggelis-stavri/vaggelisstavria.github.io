@@ -208,7 +208,8 @@ html, body {
     text-align: center;
     padding: 1em;
     font-size: 2em;
-    font-weight: bold; }
+    font-weight: bold;
+    margin-top: 0px; }
   #portfolio.overlay {
     position: absolute;
     top: 0;
@@ -235,7 +236,7 @@ html, body {
     float: left;
     margin-right: 3em;
     position: relative;
-    width: 50%;
+    width: 100%;
     border-style: solid;
     border-color: #151515;
     border-width: 10px; }
